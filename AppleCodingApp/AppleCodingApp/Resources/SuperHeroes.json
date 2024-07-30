@@ -1,0 +1,138 @@
+[
+    {
+        "id": "a1b2c3d4",
+        "nombreReal": "Lucía Pérez",
+        "apodo": "AquaWoman",
+        "descripcion": "Lucía puede controlar el agua y comunicarse con criaturas marinas después de ser expuesta a una misteriosa energía submarina.",
+        "edad": 28,
+        "poderes": ["Hidrocinesis", "Comunicación marina"],
+        "imagen": "aquawoman"
+    },
+    {
+        "id": "e5f6g7h8",
+        "nombreReal": "Carlos García",
+        "apodo": "VientoRápido",
+        "descripcion": "Carlos puede moverse a velocidades increíbles después de un experimento de aceleración de partículas.",
+        "edad": 25,
+        "poderes": ["Super velocidad"],
+        "imagen": "vientorapido"
+    },
+    {
+        "id": "i9j0k1l2",
+        "nombreReal": "Marta López",
+        "apodo": "Sombra",
+        "descripcion": "Marta puede manipular las sombras y volverse invisible cuando está en la oscuridad.",
+        "edad": 30,
+        "poderes": ["Manipulación de sombras", "Invisibilidad"],
+        "imagen": "sombra"
+    },
+    {
+        "id": "m3n4o5p6",
+        "nombreReal": "Diego Torres",
+        "apodo": "Rayo",
+        "descripcion": "Diego puede generar y controlar electricidad después de ser alcanzado por un rayo durante una tormenta.",
+        "edad": 34,
+        "poderes": ["Electrokinesis"],
+        "imagen": "rayo"
+    },
+    {
+        "id": "q7r8s9t0",
+        "nombreReal": "Elena Rodríguez",
+        "apodo": "MenteMaestra",
+        "descripcion": "Elena tiene una inteligencia sobrehumana y puede resolver problemas complejos en segundos.",
+        "edad": 29,
+        "poderes": ["Intelecto superior"],
+        "imagen": "mentemaestra"
+    },
+    {
+        "id": "u1v2w3x4",
+        "nombreReal": "Javier Martínez",
+        "apodo": "Titan",
+        "descripcion": "Javier posee una fuerza y resistencia inhumanas después de ser sometido a un experimento de mejora genética.",
+        "edad": 35,
+        "poderes": ["Super fuerza", "Resistencia mejorada"],
+        "imagen": "titan"
+    },
+    {
+        "id": "y5z6a7b8",
+        "nombreReal": "Isabel Gómez",
+        "apodo": "Fantasma",
+        "descripcion": "Isabel puede atravesar objetos sólidos y volverse intangible a voluntad.",
+        "edad": 27,
+        "poderes": ["Intangibilidad"],
+        "imagen": "fantasma"
+    },
+    {
+        "id": "c9d0e1f2",
+        "nombreReal": "Fernando Ruiz",
+        "apodo": "Fuego",
+        "descripcion": "Fernando puede generar y controlar el fuego después de un accidente en un laboratorio de química.",
+        "edad": 31,
+        "poderes": ["Pirokinesis"],
+        "imagen": "fuego"
+    },
+    {
+        "id": "g3h4i5j6",
+        "nombreReal": "Laura Fernández",
+        "apodo": "Cristal",
+        "descripcion": "Laura puede convertir su cuerpo en un material cristalino indestructible.",
+        "edad": 26,
+        "poderes": ["Transformación cristalina"],
+        "imagen": "cristal"
+    },
+    {
+        "id": "k7l8m9n0",
+        "nombreReal": "Pedro Sánchez",
+        "apodo": "Eco",
+        "descripcion": "Pedro tiene la capacidad de replicar cualquier sonido que escuche y amplificarlo.",
+        "edad": 24,
+        "poderes": ["Manipulación de sonido"],
+        "imagen": "eco"
+    },
+    {
+        "id": "o1p2q3r4",
+        "nombreReal": "Ana Torres",
+        "apodo": "Luz",
+        "descripcion": "Ana puede manipular la luz, creando ilusiones y volviéndose invisible a los ojos humanos.",
+        "edad": 32,
+        "poderes": ["Manipulación de luz"],
+        "imagen": "luz"
+    },
+    {
+        "id": "s5t6u7v8",
+        "nombreReal": "Luis Ramírez",
+        "apodo": "Bestia",
+        "descripcion": "Luis puede transformarse en un animal a voluntad, ganando las habilidades de dicho animal.",
+        "edad": 33,
+        "poderes": ["Transformación animal"],
+        "imagen": "bestia"
+    },
+    {
+        "id": "w9x0y1z2",
+        "nombreReal": "Sofía Morales",
+        "apodo": "Chispa",
+        "descripcion": "Sofía puede generar explosiones pequeñas y controladas con sus manos.",
+        "edad": 23,
+        "poderes": ["Generación de explosiones"],
+        "imagen": "chispa"
+    },
+    {
+        "id": "a3b4c5d6",
+        "nombreReal": "Raúl Ortega",
+        "apodo": "Metal",
+        "descripcion": "Raúl puede controlar y manipular metales con su mente.",
+        "edad": 29,
+        "poderes": ["Control de metales"],
+        "imagen": "metal"
+    },
+    {
+        "id": "e7f8g9h0",
+        "nombreReal": "Patricia Jiménez",
+        "apodo": "Vórtice",
+        "descripcion": "Patricia puede crear y controlar pequeños tornados y vórtices de viento.",
+        "edad": 28,
+        "poderes": ["Control de viento"],
+        "imagen": "vortice"
+    }
+]
+
