@@ -9,7 +9,7 @@ import SwiftUI
 
 struct HomeView: View {
     
-    @StateObject private var viewModel = HomeViewModel()
+    @StateObject var viewModel: HomeViewModel
     
     var body: some View {
         List {
@@ -18,12 +18,30 @@ struct HomeView: View {
             }
             
             ForEach(viewModel.heroes) { heroe in
-                Text(heroe.nombreReal)
+                HeroeRowView(heroe: heroe)
             }
         }
     }
 }
 
 #Preview {
-    HomeView()
+    HomeView(viewModel: HomeViewModel(interactor: HeroesLoaderTest()))
+}
+
+extension HomeView {
+    
+    struct HeroeRowView: View {
+        
+        let heroe: Heroe
+        
+        var body: some View {
+            HStack {
+                Image(systemName: "shield")
+                    .resizable()
+                    .scaledToFit()
+                    .frame(width: 20, height: 20)
+                Text(heroe.nombreReal)
+            }
+        }
+    }
 }

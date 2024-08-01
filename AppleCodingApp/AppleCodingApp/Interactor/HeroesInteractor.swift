@@ -30,3 +30,14 @@ struct HeroesLoader: HeroesInteractor {
         return try loadJSON(url: url, type: [Heroe].self)
     }
 }
+
+// used in HomeView preview
+struct HeroesLoaderTest: HeroesInteractor {
+    func getHeroes() throws -> [Heroe] {
+        guard let url = Bundle.main.url(forResource: "SuperHeroes", withExtension: "json") else {
+            throw URLError(.badURL)
+        }
+        
+        return try loadJSON(url: url, type: [Heroe].self).suffix(2)
+    }
+}
