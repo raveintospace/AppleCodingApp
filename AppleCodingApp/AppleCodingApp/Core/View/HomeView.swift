@@ -8,14 +8,19 @@
 import SwiftUI
 
 struct HomeView: View {
+    
+    @StateObject private var viewModel = HomeViewModel()
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        List {
+            if let error = viewModel.error {
+                Text(error)
+            }
+            
+            ForEach(viewModel.heroes) { heroe in
+                Text(heroe.nombreReal)
+            }
         }
-        .padding()
     }
 }
 

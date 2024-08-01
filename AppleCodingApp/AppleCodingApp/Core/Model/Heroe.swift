@@ -7,9 +7,9 @@
 
 import Foundation
 
-struct Heroe: Codable {
+struct Heroe: Codable, Identifiable {
     let id: String
-    let nombre: String
+    let nombreReal: String
     let edad: Int
     let imagen: String
 }

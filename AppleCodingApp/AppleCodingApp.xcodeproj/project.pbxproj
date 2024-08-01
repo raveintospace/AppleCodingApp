@@ -14,6 +14,7 @@
 		347A49AF2C59453B00FAC0B1 /* SuperHeroes.json in Resources */ = {isa = PBXBuildFile; fileRef = 347A49AE2C59453B00FAC0B1 /* SuperHeroes.json */; };
 		347A49B22C59459800FAC0B1 /* HeroesInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347A49B12C59459800FAC0B1 /* HeroesInteractor.swift */; };
 		347A49B52C5946E400FAC0B1 /* Heroe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347A49B42C5946E400FAC0B1 /* Heroe.swift */; };
+		34B3D2FF2C5BE1B30023748B /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B3D2FE2C5BE1B20023748B /* HomeViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		347A49AE2C59453B00FAC0B1 /* SuperHeroes.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = SuperHeroes.json; sourceTree = "<group>"; };
 		347A49B12C59459800FAC0B1 /* HeroesInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroesInteractor.swift; sourceTree = "<group>"; };
 		347A49B42C5946E400FAC0B1 /* Heroe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heroe.swift; sourceTree = "<group>"; };
+		34B3D2FE2C5BE1B20023748B /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 		347A49B62C594A1600FAC0B1 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				34B3D2FE2C5BE1B20023748B /* HomeViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -198,6 +201,7 @@
 				347A49A02C593E0B00FAC0B1 /* HomeView.swift in Sources */,
 				347A49B52C5946E400FAC0B1 /* Heroe.swift in Sources */,
 				347A49B22C59459800FAC0B1 /* HeroesInteractor.swift in Sources */,
+				34B3D2FF2C5BE1B30023748B /* HomeViewModel.swift in Sources */,
 				347A499E2C593E0B00FAC0B1 /* AppleCodingAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
